@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
+import SocialBar from "./SocialBar"
 
 interface Props {
   siteTitle: string
@@ -11,28 +12,21 @@ const Header = ({ siteTitle = "" }: Props) => (
     <HeaderContainer>
       <NavigationBar>
         <NavigationItemsContainer>
-          <li>
-            <SiteTitle>
-              <NavBarLink to="/">{siteTitle}</NavBarLink>
-            </SiteTitle>
-          </li>
           <NavBarItem>
-            <NavBarLink to="/blog">My Thoughts</NavBarLink>
+            <NavBarLink to="/blog">בית</NavBarLink>
           </NavBarItem>
           <NavBarItem>
-            <NavBarLink to="/courses">Courses</NavBarLink>
+            <NavBarLink to="/courses">פודקאסט</NavBarLink>
           </NavBarItem>
           <NavBarItem>
-            <NavBarLink to="/workshops">Workshops</NavBarLink>
+            <NavBarLink to="/workshops">בלוג</NavBarLink>
           </NavBarItem>
           <NavBarItem>
-            <NavBarLink to="/podcast">Podcast</NavBarLink>
-          </NavBarItem>
-          <NavBarItem>
-            <NavBarLink to="/about">About</NavBarLink>
+            <NavBarLink to="/podcast">צחי</NavBarLink>
           </NavBarItem>
         </NavigationItemsContainer>
       </NavigationBar>
+      <SocialBar />
     </HeaderContainer>
   </HeaderRoot>
 )
@@ -45,6 +39,9 @@ const HeaderRoot = styled.header`
 `
 
 const HeaderContainer = styled.div`
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 960px;
   padding: 1.45rem 1.0875rem;
@@ -56,9 +53,11 @@ const SiteTitle = styled.h1`
 
 const NavigationBar = styled.nav`
   display: flex;
+  flex-direction: row-reverse;
 `
 const NavigationItemsContainer = styled.ul`
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   list-style-type: none;
 `
