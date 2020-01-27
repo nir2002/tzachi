@@ -53,7 +53,7 @@ export default Layout
 const ContentContainer = styled.main`
   flex: 1;
   margin: 0 auto;
-  max-width: 910px;
+  max-width: 960px;
   width: 100%;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 20px;
