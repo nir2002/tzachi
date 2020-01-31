@@ -3,11 +3,13 @@ import styled from "styled-components"
 
 import PodcastPreview from "./PodcastPreview/PodcastPreview"
 import Hero from "./Hero/Hero"
+import BlogPreview from "./BlogPreview/BlogPreview"
 
 export default () => (
   <StyledHome>
     <Hero />
     <PodcastPreview />
+    <BlogPreview />
   </StyledHome>
 )
 
