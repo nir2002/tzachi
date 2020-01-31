@@ -25,7 +25,7 @@ const SocialBar = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 200px;
-  color: pink;
+  color: white;
 `
 
 const IconsContainer = styled.div`

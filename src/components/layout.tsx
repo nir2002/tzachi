@@ -52,14 +52,16 @@ export default Layout
 
 const ContentContainer = styled.main`
   flex: 1;
-  margin: 0 auto;
-  max-width: 960px;
+  margin: 20px auto;
+  max-width: 80%;
   width: 100%;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 20px;
   font-size: 24px;
   line-height: 1.96rem;
   font-family: "Inter Regular", "sans-serif";
+  box-shadow: 3px 3px 5px 6px #ccc;
+  border-radius: 10px;
 `
 
 const Footer = styled.footer`
