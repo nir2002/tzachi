@@ -54,12 +54,15 @@ const SiteTitle = styled.h1`
 const NavigationBar = styled.nav`
   display: flex;
   flex-direction: row;
+  width: 100%;
 `
 const NavigationItemsContainer = styled.ul`
   display: flex;
   flex-direction: row;
   align-items: center;
   list-style-type: none;
+  width: 62%;
+  justify-content: space-between;
 `
 const NavBarItem = styled.li`
   margin-left: 0;
