@@ -40,7 +40,7 @@ const HeaderRoot = styled.header`
 
 const HeaderContainer = styled.div`
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 960px;
@@ -53,11 +53,11 @@ const SiteTitle = styled.h1`
 
 const NavigationBar = styled.nav`
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 `
 const NavigationItemsContainer = styled.ul`
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   list-style-type: none;
 `
@@ -72,7 +72,7 @@ const NavBarItem = styled.li`
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
+  font-size: 1.3rem;
 `
 
 const NavBarLink = styled(Link)`

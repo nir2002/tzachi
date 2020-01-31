@@ -25,13 +25,12 @@ const SocialBar = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 200px;
-  padding-top: 50px;
+  color: pink;
 `
 
 const IconsContainer = styled.div`
   display: flex;
   justify-content: space-between;
-
   width: 7em;
 `
 

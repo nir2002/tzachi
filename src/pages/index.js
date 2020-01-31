@@ -6,7 +6,7 @@ import Home from "../components/Containers/Home"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Home" lang="he" dir="rtl" />
     <Home />
   </Layout>
 )

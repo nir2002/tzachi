@@ -65,8 +65,6 @@ const ContentContainer = styled.main`
 const Footer = styled.footer`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
   height: 300px;
   background-color: #333369;
   bottom: 0px;

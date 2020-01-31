@@ -28,14 +28,13 @@ export default () => (
 
 const StyledHero = styled.div`
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 100%;
 `
 
 const StyledWelcome = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   text-align: right;
   flex: 0.66;
 `
