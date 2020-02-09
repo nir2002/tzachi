@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import PlaceHolderImg from "./../image"
+import PlaceholderImg from "./../image"
+import Text from "../../components/Text"
 
 export interface previewCardItem {
   text: string
@@ -18,8 +19,10 @@ export default ({ title, items }: Props) => (
     <PreviewCardsContainer>
       {items.map(item => (
         <PreviewCard>
-          <Text>{item.text}</Text>
-          <PlaceHolderImg />
+          <Text lineHeight={1.7} fontSize={16}>
+            {item.text}
+          </Text>
+          <PlaceholderImg />
         </PreviewCard>
       ))}
     </PreviewCardsContainer>
@@ -39,12 +42,6 @@ const PreviewCardsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   padding-bottom: 20px;
-`
-const Text = styled.div`
-  text-align: right;
-  line-height: 1.7;
-  margin-left: 10px;
-  font-size: 16px;
 `
 
 const PreviewCard = styled.div`
