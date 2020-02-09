@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import SEO from "../../../components/seo"
 
 import PodcastPreview from "./PodcastPreview/PodcastPreview"
 import Hero from "./Hero/Hero"
@@ -8,6 +9,7 @@ import PodcastTeaser from "./PodcastTeaser"
 
 export default () => (
   <StyledHome>
+    <SEO title="Home" />
     <Hero />
     <PodcastTeaser />
     <PodcastPreview />
