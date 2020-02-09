@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+
 import PlaceholderImg from "./../image"
 import Text from "../../components/Text"
 
