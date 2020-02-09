@@ -37,5 +37,12 @@ module.exports = {
         // Add any options here
       },
     },
+    {
+      resolve: "gatsby-plugin-html-attributes",
+      options: {
+        lang: "he",
+        dir: "rtl",
+      },
+    },
   ],
 }
