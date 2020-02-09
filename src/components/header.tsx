@@ -16,7 +16,7 @@ const Header = ({ siteTitle = "" }: Props) => (
             <NavBarLink to="/blog">בית</NavBarLink>
           </NavBarItem>
           <NavBarItem>
-            <NavBarLink to="/courses">פודקאסט</NavBarLink>
+            <NavBarLink to="/podcast">פודקאסט</NavBarLink>
           </NavBarItem>
           <NavBarItem>
             <NavBarLink to="/workshops">בלוג</NavBarLink>
