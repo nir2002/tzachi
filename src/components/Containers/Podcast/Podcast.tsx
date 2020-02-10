@@ -1,39 +1,26 @@
 import React from "React"
-import Layout from "../../../components/layout"
+
+//@ts-ignore
+import podcastEpisodesData from "../../../../data/podcast.json"
 import EpisodeCard from "./EpisodeCard"
 
 export interface PodcastEpisode {
   title: string
   description: string
-  thumbnailPath: string
+  imagePath: string
+  episodeLink: string
+  episodeInfoText: string
 }
 
-const episodesData: PodcastEpisode[] = [
-  {
-    title: "לורם איפסום דולור סיט אמט ",
-    description:
-      "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולהע צופעט למרקו איבן איף, ברומץ ",
-    thumbnailPath: "",
-  },
-  {
-    title: "לורם איפסום דולור סיט אמט ",
-    description:
-      "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולהע צופעט למרקו איבן איף, ברומץ ",
-    thumbnailPath: "",
-  },
-  {
-    title: "לורם איפסום דולור סיט אמט ",
-    description:
-      "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולהע צופעט למרקו איבן איף, ברומץ ",
-    thumbnailPath: "",
-  },
-]
+const episodesData: PodcastEpisode[] = podcastEpisodesData
 
-export default () => (
-  <Layout>
-    <h1>פודקאסט</h1>
-    {episodesData.map((episode, index) => (
-      <EpisodeCard index={index + 1} data={episode} />
-    ))}
-  </Layout>
-)
+export default function Podcast() {
+  return (
+    <div>
+      <h1>פודקאסט</h1>
+      {episodesData.map((episode, index) => (
+        <EpisodeCard key={index} index={index + 1} data={episode} />
+      ))}
+    </div>
+  )
+}

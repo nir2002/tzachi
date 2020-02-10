@@ -13,16 +13,16 @@ const Header = ({ siteTitle = "" }: Props) => (
       <NavigationBar>
         <NavigationItemsContainer>
           <NavBarItem>
-            <NavBarLink to="/blog">בית</NavBarLink>
+            <NavBarLink to="/">בית</NavBarLink>
           </NavBarItem>
           <NavBarItem>
             <NavBarLink to="/podcast">פודקאסט</NavBarLink>
           </NavBarItem>
           <NavBarItem>
-            <NavBarLink to="/workshops">בלוג</NavBarLink>
+            <NavBarLink to="/blog">בלוג</NavBarLink>
           </NavBarItem>
           <NavBarItem>
-            <NavBarLink to="/podcast">צחי</NavBarLink>
+            <NavBarLink to="/about">צחי</NavBarLink>
           </NavBarItem>
         </NavigationItemsContainer>
       </NavigationBar>

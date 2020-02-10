@@ -16,7 +16,7 @@ export default ({ index, data }: Props) => {
   return (
     <Root>
       <InfoContainer>
-        <Link to={`/podcast/episode/${index}`}>
+        <Link to={`/podcast/episodes/${index}`}>
           <h3>
             פרק {index} - {title}
           </h3>

@@ -1,1 +1,1 @@
-export { default } from "./Podcast"
+export { default, PodcastEpisode } from "./Podcast"
