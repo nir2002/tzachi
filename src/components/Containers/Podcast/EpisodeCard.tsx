@@ -1,9 +1,10 @@
 import React from "React"
 import styled from "styled-components"
+import { Link } from "gatsby"
+
 import { PodcastEpisode } from "./Podcast"
 import PlaceholderImg from "./../../image"
 import Text from "../../../components/Text"
-import { Link } from "gatsby"
 
 interface Props {
   index: number

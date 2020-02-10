@@ -18,8 +18,8 @@ export default ({ title, items }: Props) => (
   <Root>
     <h1>{title}</h1>
     <PreviewCardsContainer>
-      {items.map(item => (
-        <PreviewCard>
+      {items.map((item, index) => (
+        <PreviewCard key={index}>
           <Text lineHeight={1.7} fontSize={16}>
             {item.text}
           </Text>

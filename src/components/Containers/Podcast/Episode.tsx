@@ -12,7 +12,7 @@ export interface EpisodeProps {
 }
 
 const Episode: React.SFC<EpisodeProps> = ({ id }) => {
-  if (id < 1) {
+  if (id < 1 || id > podcastEpisodesData.length) {
     //TODO: redirect to error page
     return <div>No such episode exists!</div>
   }
