@@ -14,7 +14,7 @@ import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons"
 library.add(fab, faCheckSquare, faCoffee)
 
 import Header from "./header"
-import SocialBar from "./socialBar"
+import SocialBar from "./SocialBar"
 import "./layout.css"
 
 interface Props {

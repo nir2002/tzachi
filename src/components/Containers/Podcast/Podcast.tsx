@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 
 //@ts-ignore
 import podcastEpisodesData from "../../../../data/podcast.json"
