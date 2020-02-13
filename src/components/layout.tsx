@@ -56,7 +56,7 @@ const ContentContainer = styled.main`
   padding-top: 20px;
   font-size: 24px;
   line-height: 1.96rem;
-  font-family: "Inter Regular", "sans-serif";
+  font-family: open-sans, "Inter Regular", "sans-serif";
   box-shadow: 3px 3px 5px 6px #ccc;
   border-radius: 10px;
 `
@@ -65,7 +65,7 @@ const Footer = styled.footer`
   display: flex;
   flex-direction: column;
   height: 300px;
-  background-color: #333369;
+  background-color: #ffd23f;
   bottom: 0px;
   left: 0px;
   right: 0px;

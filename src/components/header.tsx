@@ -34,7 +34,7 @@ const Header = ({ siteTitle = "" }: Props) => (
 export default Header
 
 const HeaderRoot = styled.header`
-  background: rebeccapurple;
+  background: #039fb3;
   margin-bottom: 1.45rem;
 `
 
@@ -71,8 +71,8 @@ const NavBarItem = styled.li`
   padding-top: 8px;
   padding-left: 14px;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: open-sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.3rem;
